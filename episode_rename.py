@@ -20,9 +20,9 @@ for season in episodes.keys():
         title = episodes[season][episode]['title']
 
         if episode < 10:
-            ep_name = "{} S0{}E0{} - {}.srt".format(series, season, episode, title)
+            ep_name = "{} S0{}E0{} - {}.mkv".format(series, season, episode, title)
         else:
-            ep_name = "{} S0{}E{} - {}.srt".format(series, season, episode, title)
+            ep_name = "{} S0{}E{} - {}.mkv".format(series, season, episode, title)
         
         episode_list.append(ep_name)
 
@@ -31,7 +31,7 @@ files = os.listdir(directory)
 print("Renaming episodes...")
 for i in range(len(files)):
     ep_name = episode_list[i]
-    if ".srt" in ep_name:
+    if ".mkv" in ep_name:
         og_name = files[i]
         filename = os.path.join(directory, og_name)
         newfilename = os.path.join(directory, ep_name)
