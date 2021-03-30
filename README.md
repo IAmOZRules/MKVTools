@@ -1,2 +1,2 @@
 # MKVTools
-Python scripts to rename episodes and video tags
+Python scripts to rename episodes, subtitles and video tags
