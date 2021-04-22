@@ -19,6 +19,7 @@ python rename.py -c tt000472954 -e "D:\Episode Directory" -s "D:\Subtitle Direct
 ```
 
 ### NOTES:
+- Individual scripts can be found [here](Individual Scripts), but won't be receiving updates!
 - Make sure that **ALL** episodes/subtitles are available in the one folder, not nested folders!
 - Due to certain limitations not yet handled by me, ensure that the **Episodes and Subtitles are in separate folders**!
 
