@@ -1,7 +1,10 @@
 # MKVTools
 Python script to rename episodes, subtitles (from IMDb) and video tags (changed to video file title).
 
-#### Usage
+### Make sure you have all the requirements installed! If you dont, simply run ```pip install -r requirements.txt``` in any terminal.
+
+## Usage
+
 ```
 usage: python rename.py [-h] -c <code> [options]
 
@@ -13,7 +16,7 @@ optional arguments:
   -t , --tag        Rename VIDEO TAGS for MKV Videos
 ```
 
-#### Example
+## Example
 ```
 python rename.py -c tt000472954 -e "D:\Episode Directory" -s "D:\Subtitle Directory" -t "D:\Episode Directory"
 ```
@@ -23,7 +26,7 @@ python rename.py -c tt000472954 -e "D:\Episode Directory" -s "D:\Subtitle Direct
 - Make sure that **ALL** episodes/subtitles are available in the one folder, not nested folders!
 - Due to certain limitations not yet handled by me, ensure that the **Episodes and Subtitles are in separate folders**!
 
-### TODO:
+## TODO:
 - [x] Convert separate scripts into a single CLI operation ✅
 - [ ] Add custom season/episode range to be renamed
 - [ ] Renaming in nested directories
