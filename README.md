@@ -23,7 +23,7 @@ python rename.py -c tt000472954 -e "D:\Episode Directory" -s "D:\Subtitle Direct
 - Due to certain limitations not yet handled by me, ensure that the **Episodes and Subtitles are in separate folders**!
 
 ### TODO:
-- [✓] Convert separate scripts into a single CLI operation
+- [x] Convert separate scripts into a single CLI operation
 - [ ] Add custom season/episode range to be renamed
 - [ ] Renaming in nested directories
 - [ ] Maybe a GUI 🤷‍♂️
