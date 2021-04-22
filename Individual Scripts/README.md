@@ -1,7 +1,7 @@
 # MKVTools
 Individual python scripts to rename episodes, subtitles and video tags.
 
-#### Usage
+# Usage
 ## To Rename Episodes:
 1. Open the ```episode_rename.py``` script
 2. Change the ```code = "3032476"``` to code for whatever the IMDb code for your selected series is.
