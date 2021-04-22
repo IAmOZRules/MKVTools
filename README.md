@@ -1,9 +1,10 @@
 # MKVTools
 Python script to rename episodes, subtitles (from IMDb) and video tags (changed to video file title).
 
-### Make sure you have all the requirements installed! If you dont, simply run ```pip install -r requirements.txt``` in any terminal.
-
 ## Usage
+Make sure you have all the requirements installed!
+
+If you dont, simply run ```pip install -r requirements.txt``` in any terminal, and you are good to go!
 
 ```
 usage: python rename.py [-h] -c <code> [options]
