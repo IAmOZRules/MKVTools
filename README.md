@@ -20,6 +20,7 @@ optional arguments:
 ## Example
 ```
 python rename.py -c tt000472954 -e "D:\Episode Directory" -s "D:\Subtitle Directory" -t "D:\Episode Directory"
+python rename.py --code tt000472954 --episode "D:\Episode Directory" --subtitle "D:\Subtitle Directory" --tag "D:\Episode Directory"
 ```
 
 ### NOTES:
