@@ -5,7 +5,7 @@ import argparse
 from termcolor import colored
 
 arg_parser = argparse.ArgumentParser(usage='python rename.py [-h] -c <code> [options]')
-arg_parser.add_argument('-c', '--code', type=str, help='IMDb CODE for the Series', required=True, metavar='')
+arg_parser.add_argument('-c', '--code', type=str, help='IMDb CODE for the Series', required=False, metavar='')
 arg_parser.add_argument('-e', '--episode', type=str, help='Rename EPISODES of the series in the specified Directory', default=False, metavar='')
 arg_parser.add_argument('-s', '--subtitle', type=str, help='Rename SUBTITLES of the Series in the Directory', default=False, metavar='')
 arg_parser.add_argument('-t', '--tag', type=str, help='Rename VIDEO TAGS for MKV Videos', required=False, metavar='')
@@ -94,12 +94,14 @@ def edit_tag(directory):
         if ".mp4" in file:
             title = file.replace(".mp4", "")
             command = r'mkvpropedit "{}\{}" --set "title={}"'.format(directory, file, title)
-            os.system(command, shell=False)
+            os.system(command)
         
         print(colored("RENAMING", "red"), colored("VIDEO TAGS", "cyan"), colored("FINISHED!\n", "red"))
 
 if __name__ == "__main__":
-    episodes = get_episodes(args.code)
+
+    if args.code:
+        episodes = get_episodes(args.code)
 
     if args.episode:
         args.episode = r'{}'.format(args.episode)
