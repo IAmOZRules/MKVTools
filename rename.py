@@ -4,7 +4,7 @@ import imdb
 import argparse
 from termcolor import colored
 
-arg_parser = argparse.ArgumentParser(usage='python rename.py [-h] -c <code> [options]')
+arg_parser = argparse.ArgumentParser(usage='python rename.py [-h] [options]')
 arg_parser.add_argument('-c', '--code', type=str, help='IMDb CODE for the Series', required=False, metavar='')
 arg_parser.add_argument('-e', '--episode', type=str, help='Rename EPISODES of the series in the specified Directory', default=False, metavar='')
 arg_parser.add_argument('-s', '--subtitle', type=str, help='Rename SUBTITLES of the Series in the Directory', default=False, metavar='')
