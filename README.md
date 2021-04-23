@@ -7,7 +7,7 @@ Make sure you have all the requirements installed!
 If you dont, simply run ```pip install -r requirements.txt``` in any terminal, and you are good to go!
 
 ```
-usage: python rename.py [-h] -c <code> [options]
+usage: python rename.py [-h] [options]
 
 optional arguments:
   -h, --help        show this help message and exit
