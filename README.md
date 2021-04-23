@@ -1,5 +1,5 @@
 # MKVTools
-Python script to rename episodes, subtitles (from IMDb) and video tags (changed to video file title).
+Python script to rename episodes and subtitles (names taken from from IMDb) and video tags (changed to video file title for matroska files).
 
 ## Usage
 Make sure you have all the requirements installed!
