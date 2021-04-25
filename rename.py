@@ -96,7 +96,7 @@ def edit_tag(directory):
             command = r'mkvpropedit "{}\{}" --set "title={}"'.format(directory, file, title)
             os.system(command)
         
-        print(colored("RENAMING", "red"), colored("VIDEO TAGS", "cyan"), colored("FINISHED!\n", "red"))
+    print(colored("RENAMING", "red"), colored("VIDEO TAGS", "cyan"), colored("FINISHED!\n", "red"))
 
 if __name__ == "__main__":
 
