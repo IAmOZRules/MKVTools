@@ -62,7 +62,9 @@ This GUI uses PySimpleGUI, which is a Python library for building GUI applicatio
 
 - GUI:
 
-![](https://github.com/IAmOZRules/MKVTools/blob/main/Images/example_gui.jpg)
+<p align="center">
+  <img src="https://github.com/IAmOZRules/MKVTools/blob/main/Images/example_gui.jpg" />
+</p>
 
 ### NOTES:
 
