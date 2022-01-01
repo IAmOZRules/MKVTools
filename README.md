@@ -56,10 +56,12 @@ To run the GUI, simply run `python gui.py` in the terminal.
 This GUI uses PySimpleGUI, which is a Python library for building GUI applications.
 
 ### Example Output:
-* CLI:
+- CLI:
+
 ![](https://github.com/IAmOZRules/MKVTools/blob/main/Images/example_cli.jpg)
 
-* GUI:
+- GUI:
+
 ![](https://github.com/IAmOZRules/MKVTools/blob/main/Images/example_gui.jpg)
 
 ### NOTES:
