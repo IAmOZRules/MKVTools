@@ -48,7 +48,7 @@ python rename.py -c tt000472954 -r 4 -e "D:\Episode Directory" -s "D:\Subtitle D
 ```
 
 ### Example Output:
-![](images/example.jpg)
+![](https://github.com/IAmOZRules/MKVTools/blob/main/Images/example.jpg)
 ### NOTES:
 
 - Individual scripts can be found [here](https://github.com/IAmOZRules/MKVTools/tree/main/Individual%20Scripts), but won't be receiving updates!
