@@ -6,9 +6,9 @@ Python script to rename episodes and subtitles (names taken from from IMDb) and 
 
 Make sure you have all the requirements installed!
 
-If you dont, simply run ``pip install -r requirements.txt`` in any terminal, and you are good to go!
+If you dont, simply run `pip install -r requirements.txt` in any terminal, and you are good to go!
 
-To use the tags renaming function, you need to have ```mkvpropedit``` from [MKVToolNix](https://mkvtoolnix.download/) added to your System PATH.
+To use the tags renaming function, you need to have `mkvpropedit` from [MKVToolNix](https://mkvtoolnix.download/) added to your System PATH.
 
 ```
 usage: python rename.py [-h] [options]
@@ -25,30 +25,43 @@ optional arguments:
 
 ## Examples:
 
-* Renaming all episodes in a series:
+- Renaming all episodes in a series:
 
 ```
 python rename.py -c tt000472954 -e "D:\Episode Directory" -s "D:\Subtitle Directory" -t "D:\Episode Directory"
 python rename.py --code tt000472954 --episode "D:\Episode Directory" --subtitle "D:\Subtitle Directory" --tag "D:\Episode Directory"
 ```
 
-* Renaming episodes upto a certain season in a series:
+- Renaming episodes upto a certain season in a series:
+
 ```
 python rename.py -c tt000472954 -r 0 4 -e "D:\Episode Directory" -s "D:\Subtitle Directory" -t "D:\Episode Directory"
 ```
 
-* Renaming episodes from a certain season to the end of a series:
+- Renaming episodes from a certain season to the end of a series:
+
 ```
 python rename.py -c tt000472954 -r 4 0 -e "D:\Episode Directory" -s "D:\Subtitle Directory" -t "D:\Episode Directory"
 ```
 
-* Renaming one specified season in a series:
+- Renaming one specified season in a series:
+
 ```
 python rename.py -c tt000472954 -r 4 -e "D:\Episode Directory" -s "D:\Subtitle Directory" -t "D:\Episode Directory"
 ```
 
+## Running the GUI:
+To run the GUI, simply run `python gui.py` in the terminal.
+
+This GUI uses PySimpleGUI, which is a Python library for building GUI applications.
+
 ### Example Output:
-![](https://github.com/IAmOZRules/MKVTools/blob/main/Images/example.jpg)
+* CLI:
+![](https://github.com/IAmOZRules/MKVTools/blob/main/Images/example_cli.jpg)
+
+* GUI:
+![](https://github.com/IAmOZRules/MKVTools/blob/main/Images/example_gui.jpg)
+
 ### NOTES:
 
 - Individual scripts can be found [here](https://github.com/IAmOZRules/MKVTools/tree/main/Individual%20Scripts), but won't be receiving updates!
@@ -57,7 +70,7 @@ python rename.py -c tt000472954 -r 4 -e "D:\Episode Directory" -s "D:\Subtitle D
 
 ## TODO:
 
-- [X] Convert separate scripts into a single CLI operation ✅
-- [X] Add custom season/episode range to be renamed
+- [x] Convert separate scripts into a single CLI operation ✅
+- [x] Add custom season/episode range to be renamed
 - [ ] Renaming in nested directories
-- [ ] Maybe a GUI 🤷‍♂️
+- [x] Maybe a GUI 🤷‍♂️
